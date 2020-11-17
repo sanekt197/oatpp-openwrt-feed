@@ -1,5 +1,5 @@
 menu "Build/Install Configuration"
-	depends PACKAGE_oatpp-swagger
+	depends on PACKAGE_oatpp-swagger
 
 	config OATPP_SWAGGER_INSTALL_UI
 		bool "Install Swagger UI"
